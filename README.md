@@ -27,7 +27,7 @@
 - The year 2016 recorded the highest single-year discovery count with 1,504 planets.
 
 ## AI usage disclosure
-- **Model:** [Put the name of the AI you used, e.g., ChatGPT, Claude, or Llama 3.2]
+- **Model:** GEMINI AI
 - **Used for:** Drafting the narrative summary from my computed `findings.json`.
 - **Not used for:** Data cleaning, statistics, chart creation, or choosing findings.
 - **Verification:** Every number in the AI summary was checked against `outputs/findings.json`. I confirmed all numbers were accurate and made no edits.
