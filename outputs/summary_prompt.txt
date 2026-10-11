@@ -1,0 +1,76 @@
+
+You are a careful data analyst.
+
+Summarize ONLY the computed findings below.
+Do not invent numbers.
+Do not add external facts.
+If something is missing, say so.
+Write:
+- 5 bullet points of key findings
+- 3 limitations of the data
+- 2 suggestions for further analysis
+
+Computed findings:
+{
+  "n_planets": 6336,
+  "year_min": 1992,
+  "year_max": 2026,
+  "discoveries_by_year_recent": {
+    "2012": 144,
+    "2013": 128,
+    "2014": 869,
+    "2015": 155,
+    "2016": 1504,
+    "2017": 152,
+    "2018": 308,
+    "2019": 195,
+    "2020": 234,
+    "2021": 564,
+    "2022": 367,
+    "2023": 323,
+    "2024": 260,
+    "2025": 245,
+    "2026": 248
+  },
+  "top_discovery_methods": {
+    "Transit": 4676,
+    "Radial Velocity": 1197,
+    "Microlensing": 282,
+    "Imaging": 98,
+    "Transit Timing Variations": 40,
+    "Eclipse Timing Variations": 17,
+    "Orbital Brightness Modulation": 9,
+    "Pulsar Timing": 8,
+    "Astrometry": 6,
+    "Pulsation Timing Variations": 2
+  },
+  "median_radius_earth": 2.86,
+  "missing_radius_pct": 0.8,
+  "median_mass_earth": 9.32,
+  "missing_mass_pct": 0.5,
+  "habitable_proxy_count": 61,
+  "planet_size_class_counts": {
+    "Neptune-like": 2082,
+    "Super-Jupiter": 1828,
+    "Super-Earth": 1195,
+    "Gas giant": 605,
+    "Earth-sized": 490,
+    "Sub-Earth": 86,
+    "Unknown": 50
+  },
+  "temperature_band_counts": {
+    "Hot": 2666,
+    "Warm": 2334,
+    "Unknown": 526,
+    "Temperate proxy": 333,
+    "Cool": 271,
+    "Very cold": 206
+  },
+  "distance_band_counts": {
+    "100-1,000 pc": 3632,
+    "10-100 pc": 1444,
+    ">=1,000 pc": 1112,
+    "<10 pc": 121,
+    "Unknown": 27
+  }
+}

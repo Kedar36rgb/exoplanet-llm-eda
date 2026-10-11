@@ -1,0 +1,48 @@
+column,type,description,origin
+planet_name,string,Confirmed planet name used by the archive.,NASA field pl_name
+host_star,string,Name of the host star or stellar system.,NASA field hostname
+planet_letter,string,Letter assigned to the planetary component.,NASA field pl_letter
+stars_in_system,integer,Number of stars in the planetary system.,NASA field sy_snum
+planets_in_system,integer,Number of confirmed planets in the system.,NASA field sy_pnum
+discovery_method,string,Method used to discover the planet.,NASA field discoverymethod
+discovery_year,integer,Calendar year in which the planet was discovered.,NASA field disc_year
+discovery_facility,string,Facility credited with the discovery.,NASA field disc_facility
+discovery_telescope,string,Telescope credited with the discovery.,NASA field disc_telescope
+discovery_instrument,string,Instrument credited with the discovery.,NASA field disc_instrument
+orbital_period_days,number,"Time required to complete one orbit, in days.",NASA field pl_orbper
+semi_major_axis_au,number,Orbit semi-major axis in astronomical units.,NASA field pl_orbsmax
+radius_earth,number,Planet radius in Earth radii.,NASA field pl_rade
+radius_jupiter,number,Planet radius in Jupiter radii.,NASA field pl_radj
+mass_earth,number,Best available planet mass in Earth masses.,NASA field pl_bmasse
+mass_jupiter,number,Best available planet mass in Jupiter masses.,NASA field pl_bmassj
+mass_measurement_type,string,Provenance or measurement type for the best mass.,NASA field pl_bmassprov
+density_g_cm3,number,Planet density in grams per cubic centimetre.,NASA field pl_dens
+eccentricity,number,Orbital eccentricity.,NASA field pl_orbeccen
+insolation_earth,number,Incident stellar flux relative to Earth.,NASA field pl_insol
+equilibrium_temperature_k,number,Planet equilibrium temperature in kelvin.,NASA field pl_eqt
+orbital_inclination_deg,number,Orbital inclination in degrees.,NASA field pl_orbincl
+transit_midpoint_bjd,number,Transit midpoint in Barycentric Julian Date.,NASA field pl_tranmid
+impact_parameter,number,Projected transit impact parameter.,NASA field pl_imppar
+transit_depth_percent,number,"Fraction of stellar light blocked during transit, in percent.",NASA field pl_trandep
+transit_duration_hours,number,Transit duration in hours.,NASA field pl_trandur
+star_spectral_type,string,Spectral classification of the host star.,NASA field st_spectype
+star_temperature_k,number,Effective temperature of the host star in kelvin.,NASA field st_teff
+star_radius_solar,number,Host-star radius relative to the Sun.,NASA field st_rad
+star_mass_solar,number,Host-star mass relative to the Sun.,NASA field st_mass
+star_metallicity_dex,number,Host-star metallicity on a logarithmic scale.,NASA field st_met
+star_surface_gravity_log10,number,"Host-star surface gravity, log10(cm/s2).",NASA field st_logg
+star_age_gyr,number,Estimated host-star age in billions of years.,NASA field st_age
+distance_parsec,number,Distance from Earth in parsecs.,NASA field sy_dist
+apparent_magnitude_v,number,Apparent brightness in the V band.,NASA field sy_vmag
+apparent_magnitude_k,number,Apparent brightness in the K band.,NASA field sy_kmag
+apparent_magnitude_gaia,number,Apparent brightness in the Gaia band.,NASA field sy_gaiamag
+right_ascension_deg,number,Right ascension in decimal degrees.,NASA field ra
+declination_deg,number,Declination in decimal degrees.,NASA field dec
+galactic_latitude_deg,number,Galactic latitude in decimal degrees.,NASA field glat
+galactic_longitude_deg,number,Galactic longitude in decimal degrees.,NASA field glon
+source_publication_date,date,Publication date of the planet parameter set.,NASA field pl_pubdate
+planet_size_class,string,Radius-based size band; Unknown when radius is missing.,Derived by DarkMatterNet
+temperature_band,string,Broad equilibrium-temperature band; not a habitability conclusion.,Derived by DarkMatterNet
+discovery_decade,integer,Decade derived from discovery_year.,Derived by DarkMatterNet
+distance_band,string,Distance band in parsecs.,Derived by DarkMatterNet
+potentially_habitable_proxy,boolean,Simple analytical proxy: radius 0.5-2 Earth radii and equilibrium temperature 180-310 K. Not a scientific habitability classification.,Derived by DarkMatterNet

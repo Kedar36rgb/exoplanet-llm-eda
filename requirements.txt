@@ -1,0 +1,4 @@
+```text
+pandas
+matplotlib
+requests
